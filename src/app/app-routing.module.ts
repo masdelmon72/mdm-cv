@@ -1,4 +1,4 @@
-import { BrowserModule } from "@angular/platform-browser";
+
 import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 
@@ -14,12 +14,11 @@ const appRoutes: Routes = [
    { path: '**', component: PageNotFoundComponent } 
 ];  
 
-@NgModule ({ 
-   imports: [ BrowserModule, 
-   RouterModule.forRoot(appRoutes)], 
-   declarations: [ AppComponent,Apppersonal,AppExperiences,PageNotFoundComponent], 
-   bootstrap: [ AppComponent ] 
-}) 
+ 
+@NgModule({
+  imports: [ RouterModule.forRoot(appRoutes) ],
+  exports: [ RouterModule ]
+})
 
 export class AppModule {
 } 
