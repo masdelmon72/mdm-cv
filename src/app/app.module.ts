@@ -3,7 +3,7 @@ import { NgModule }      from '@angular/core';
 import { RouterModule}   from '@angular/router';
 
 import { AppComponent }    from './app.component';
-import { PersonalComponent } from './personal.component';
+import { PersonalComponent } from './personal/personal.component';
 
 @NgModule({
    declarations: [
@@ -14,7 +14,7 @@ import { PersonalComponent } from './personal.component';
       BrowserModule,
       RouterModule.forRoot([
          {
-            path: 'pdata',
+            path: 'personal',
             component: PersonalComponent
          }
       ])
