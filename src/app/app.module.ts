@@ -3,19 +3,19 @@ import { NgModule }      from '@angular/core';
 import { RouterModule}   from '@angular/router';
 
 import { AppComponent }    from './app.component';
-import { NewCmpComponent } from './new-cmp/new-cmp.component';
+import { PersonalComponent } from './personal.component';
 
 @NgModule({
    declarations: [
       AppComponent,
-      NewCmpComponent
+      PersonalComponent
    ],
    imports: [
       BrowserModule,
       RouterModule.forRoot([
          {
-            path: 'new-cmp',
-            component: NewCmpComponent
+            path: 'pdata',
+            component: PersonalComponent
          }
       ])
    ],
