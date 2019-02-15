@@ -1,10 +1,21 @@
-<h1>{{title}}</h1>
-<nav>
-  <a routerLink="/Personal">Personal Data</a>
-  <a routerLink="/Experiences">Work experience</a>
-</nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+import { Component, OnInit } from '@angular/core';
 
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit {
+ 
+
+  constructor() { }
+
+  ngOnInit() {
+  
+  }
+
+  
+}
 
 
