@@ -51,5 +51,8 @@
     "typescript": "~2.5.3"
   },
   "keywords": ["angular"],
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "8.2.1"
+  }
 }
