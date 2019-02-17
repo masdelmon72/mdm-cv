@@ -19,6 +19,10 @@ import {PersonalComponent} from './personal/personal.component';
       BrowserModule,
       HttpModule,
       RouterModule.forRoot([
+         { 
+            path: '', 
+            component: AppComponent 
+         },
          {
             path: 'personal',
             component: PersonalComponent
