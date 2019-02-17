@@ -5,13 +5,14 @@ import { RouterModule} from '@angular/router';
 */
 
 import { AppComponent } from './app.component';
-/*
+
 import {PersonalComponent} from './personal/personal.component';
-*/
+
 
 @NgModule({
    declarations: [
-      AppComponent
+      AppComponent,
+      PersonalComponent
       
    ],
    imports: [
