@@ -17,6 +17,7 @@ import {PersonalComponent} from './personal/personal.component';
             path: 'personal',
             component: PersonalComponent
          }
+      ])
    ],
    providers: [],
    bootstrap: [AppComponent]
