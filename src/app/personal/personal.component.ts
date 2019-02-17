@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class PersonalComponent implements OnInit {
-   newcomponent = "Personal Data component created";
+   title = "Personal Data";
    constructor() {}
    ngOnInit() { }
 }
