@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class PersonalComponent implements OnInit {
-   title = "Personal Data";
+   section = "Personal Data";
    constructor() {}
    ngOnInit() { }
 }
