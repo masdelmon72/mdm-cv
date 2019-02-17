@@ -17,13 +17,13 @@ import {PersonalComponent} from './personal/personal.component';
    ],
    imports: [
       BrowserModule
-      ,
+    */  ,
       RouterModule.forRoot([
          {
             path: 'personal',
             component: PersonalComponent
          }
-      ])
+      ])*/
    ],
    providers: [],
    bootstrap: [AppComponent]
