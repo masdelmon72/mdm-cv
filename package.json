@@ -10,6 +10,7 @@
     "start": "node server.js",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
+    "preinstall": "export PYTHON=python2",
     "postinstall": "ng build --aot -prod"
   },
   "private": true,
